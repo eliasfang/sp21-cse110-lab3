@@ -1,9 +1,7 @@
 # Standup [DATE]
 
-## Attendance
+## What did I work on yesterday?
 
-## Updates
+## What am I working on today?
 
-## Blockers
-
-## Action Items
+## What is blocking me?
