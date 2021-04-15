@@ -38,7 +38,7 @@ input[type="button"] {
     background-color: green;
 }
 
-legend ~ input[type="text"], select {
+legend ~ input[type="text"], input[type="date"], input[id="datalist"], select, textarea {
     width: 100%;
 }
 
@@ -124,4 +124,12 @@ img.social-icon {
 
 #navbar li a:hover {
     background-color: gray;
+}
+
+@media screen and (max-width: 600px) {
+    #add-entry {
+        width: 100%;
+        border-style: solid;
+        border-radius: 10px;
+    }
 }
