@@ -8,13 +8,37 @@
         <meta property="og:description" content="This webpage is a journal entry for Lab 2 of CSE 110.">
         <meta property="og:title" content="Elias Fang's Journal">
 
-        <link rel="shortcut icon" href="assets/favicon.svg">
-
         <title>Elias Fang's Journal</title>
+
+        <link rel="shortcut icon" href="assets/favicon.svg">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
+
+        <style>
+            * {
+                font-family: "Lato", sans-serif;
+            }
+
+            summary {
+                text-decoration: underline;
+            }
+
+            .title {
+                text-align: center;
+            }
+
+            h2 {
+                text-align: center;
+            }
+
+            a.link {
+                text-decoration: none;
+            }
+        </style>
     </head>
     <body>
         <header>
-            <h1>My Journal</h1>
+            <h1 class="title">My Journal</h1>
             <div>
                 <h2>Contents</h2>
                 <nav>
@@ -48,8 +72,8 @@
                         <ol>
                             <li>ECE 65
                                 <ul>
-                                    <li>Lab 1</li>
-                                    <li>HW 1</li>
+                                    <li style="text-decoration: line-through">Lab 1</li>
+                                    <li style="text-decoration: line-through">HW 1</li>
                                     <li>Reading Quiz</li>
                                 </ul>
                             </li>
@@ -60,7 +84,7 @@
                             </li>
                             <li>CSE 110
                                 <ul>
-                                    <li>Lab 2</li>
+                                    <li style="text-decoration: line-through">Lab 2</li>
                                 </ul>
                             </li>
                         </ol>
@@ -164,7 +188,7 @@
             <hr>
             <p>Webpage by Elias Fang</p>
             <p>2nd-year Computer Engineering Major at UC San Diego</p>
-            <p>Send any questions to <a href="mailto:efang@ucsd.edu">efang@ucsd.edu</a></p>
+            <p>Send any questions to <a class="link" href="mailto:efang@ucsd.edu">efang@ucsd.edu</a></p>
             <a href="https://www.facebook.com/eliasfang1210/"><img src="assets/facebook.png" alt="Facebook Logo"></a>
             <a href="https://www.instagram.com/eliasfang/"><img src="assets/instagram.png" alt="Instagram Logo"></a>
             <a href="https://www.linkedin.com/in/eliasfang/"><img src="assets/linkedin.png" alt="LinkedIn Logo"></a>
