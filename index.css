@@ -1,3 +1,54 @@
 body {
-    background-image: linear-gradient(to bottom right, purple, blue);
+    background-image: linear-gradient(to bottom right, red, yellow);
+    color: white;
+}
+
+header {
+    background-color: #964B00;
+}
+
+summary {
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}
+
+footer {
+    background-color: #121212;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+footer a {
+    color: green;
+    text-decoration: underline;
+}
+
+.title {
+    text-align: center;
+}
+
+#add-entry {
+    color: white;
+    background-color: purple;
 }
